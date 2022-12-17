@@ -24,33 +24,90 @@
 
 }
 
-@media screen and (max-width:60) {
+@media screen and (max-width: 600px) {
     .text .title {
         font-family: 'Poppins', sans-serif;
-        margin-bottom: 20px;
-        font-size: 5px;
+        /* margin-bottom: 20px; */
+        font-size: 15px;
         
     }
 
 }
 
 
-@media screen and (max-width:650) {
+@media screen and (max-width:650px) {
     .card {
-        width: 150px;
+        width: 450px;
+        height: 800px;
+        border: 1px solid #000;
+        display: flex;
+        flex-direction: column;
         
     }
 
     .card img{
-        /* width: 50px */
+        width: 250px;
+        margin-top: 10px;
 
     }
 
+    .text p{
+        font-size: 15px;
+    }
+
+    .text .title {
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+        font-size: 15px;
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin-left: 120px;
+        
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .dollar {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .cart {
+        display: flex;
+        /* margin-right: 10px; */
+        font-size: 700;
+        color: black;
+    }
+
+    button {
+        width: 30px;
+        height: 20px;
+        margin-top: 50px;
+        background-color: black;
+        /* color: red ; */
+        border-radius: 5px;
+        text-transform: uppercase;
+        margin-left: 150px;
+    }
+
+    .check #none {
+        color: black;
+    }
+
+    .rate {
+        /* margin-left: 10px; */
+        font-size: 60px;
+        margin-top: 10px;
+    }
     
 }
 
 .card img {
-    height: 350px;
+    height: 450px;
 }
 
 
@@ -71,9 +128,13 @@
     color: aqua;
 }
 
+.check #none {
+    color: black;
+}
+
 .rate {
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .dollar {
@@ -113,7 +174,6 @@
 
 .cart a {
     text-decoration: none;
-    text-st
 }
 
 #plus {
